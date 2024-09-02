@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-		"server": "nodemon backend/index.js",
-		"start": "node backend/index.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-	},
+    "server": "nodemon backend/index.js",
+    "start": "node backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ankitrajdevv/Login.git"
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/ankitrajdevv/Login#readme",
   "dependencies": {
     "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0"
   }
 }
