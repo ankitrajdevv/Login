@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+		"server": "nodemon backend/index.js",
+		"start": "node backend/index.js",
+		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ankitrajdevv/Login.git"
